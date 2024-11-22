@@ -1,0 +1,26 @@
+<div class="jumbotron">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6 offset-md-3 mt-5" *ngIf="regForm">
+              <h3>Ingreso al Sistema</h3>
+          </div>
+          <div class="col-md-6 offset-md-3 mt-5" *ngIf="!regForm">
+              <h3>Login</h3>
+              <form name="form" #tf="ngForm" (ngSubmit)="tf.form.valid && onSubmitLogin()" novalidate>
+                  <div class="form-group">
+                      <label>Email</label>
+                      <input type="email" class="form-control" name="userEmail" [(ngModel)]="loginFormValue.userEmail" #userEmail="ngModel" required email />
+                  </div>
+                  <div class="form-group">
+                      <label>Password</label>
+                      <input type="password" class="form-control" name="userPassword" [(ngModel)]="loginFormValue.userPassword" #userPassword="ngModel" minlength="6" togglePassword>
+                  </div>
+                  <div class="form-group mt-5">
+                      <button class="btn btn-primary">Login</button>
+                  </div>
+              </form>
+            
+          </div>
+      </div>
+  </div>
+</div>

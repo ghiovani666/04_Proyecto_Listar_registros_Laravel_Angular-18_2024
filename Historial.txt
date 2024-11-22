@@ -1,0 +1,103 @@
+https://northwind.vercel.app/
+https://northwind.vercel.app/api/categories
+https://github.com/gaalha/Angular-CRUD
+
+
+
+LoadChilddrenCallBack
+
+app-root
+app-dashboard
+
+
+Buenos 17
+===============
+https://github.com/lionashu/Angular17-Ecommerce-Application-using-JSON-Server/tree/master
+https://github.com/AhmedZena/E-commerce-Angular/tree/main
+
+ng generate service esample
+
+document
+================
+https://github.com/guptamadhur/Angular-CRUD-Operation-with-Reactive-Forms/tree/master
+https://github.com/Tharindu37/angular-signals-crud/tree/main
+https://github.com/CSSinghNet/Angular_Signals/tree/main
+https://stackblitz.com/edit/stackblitz-starters-epzd98?file=src%2Fmain.ts
+https://dev.to/railsstudent/how-to-convert-http-response-from-observable-to-angular-signal-with-tosignal-1n2m
+https://stackoverflow.com/questions/77453610/angular-17-dependent-signal-change-not-detected
+https://stackblitz.com/edit/stackblitz-starters-zupqhr?file=src%2Fmain.ts
+
+https://medium.com/@navadiyaha/mastering-two-way-binding-with-new-model-signal-in-angular-17-9c61fac22fb7
+https://stackblitz.com/~/edit/signal-within-signal-service-deborahk?file=src/main.ts
+https://github.com/sonusindhu/angular-signals-examples/tree/master
+https://github.com/DevBySeb/DevBySeb/tree/angular-16-crud
+https://github.com/nihira2020/signalexample/tree/master
+https://github.com/nicetomytyuk/angular-18-fetch-signals-example/tree/master
+
+
+Ecomerce Signal=======
+https://www.youtube.com/watch?v=kWDboeL2g4g
+https://github.com/yshashi/angular-signals/blob/master/src/app/cart/cart.component.html
+
+
+http://localhost:4200/product/list
+
+
+
+
+================ crear api =======================
+php artisan install:api
+https://stackoverflow.com/questions/78188214/unable-to-locate-the-api-php-route-file-in-laravel-11
+
+============= autentication
+composer require laravel/breeze
+php artisan breeze:install
+
+What do you like? is Api
+phpUnit
+
+==========================
+crear por version
+
+composer create-project --prefer-dist laravel/laravel back-apiPrueba "10.*"
+
+
+
+php artisan migrate:fresh
+composer require laravel/ui
+php artisan ui bootstrap 
+php artisan ui bootstrap --auth
+
+se instala el vitem ahora
+npm inhstall
+npm run build
+
+HAy que remover en el model user "SoftDeletes"
+===========================
+You have to remove the traits use SoftDeletes; from your model file.
+
+Para el postman
+================================================================
+http://127.0.0.1:8000/api/login
+{
+    "email":"admin@gmail.com",
+    "password":"123456789"
+}
+
+http://127.0.0.1:8000/api/notes
+
+
+
+
+04_Proyecto_Listar_registros_Laravel_Angular_2024
+
+listar registros con  signal angular 18
+angular, dev, javascript, angular 18, angulr18,
+ angualr, organiza, scaffolding, code estucture, arquitecth
+listar registros en angular 18
+
+Angular, API, RESTful, Tutorial, DesarrolloWeb, Programación, JavaScript, FrontEnd, WebDevelopment, HttpClient, JSON, Integración, SolicitudesHTTP, ConsumirAPI, TutorialAngular, DesarrolloDeSoftware, CodeTutorial, Developers, WebDesign, CodingTips
+
+
+
+Listar registros (Signals) en Angular 18 con API Laravel 2024

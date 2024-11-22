@@ -1,0 +1,66 @@
+LARAVEL 10.10
+===========
+ "laravel/framework": "^10.10",
+"php": "^8.1",
+
+1
+=====
+composer create-project --prefer-dist laravel/laravel back-apiPrueba "10.*"
+php artisan migrate
+composer require laravel/ui
+php artisan ui bootstrap --auth
+php artisan migrate:fresh
+npm install
+
+
+2
+===
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\ProductController;
+
+Route::post('/register', [AuthController::class, 'register']);
+Route::post('/login', [AuthController::class, 'login']);
+
+Route::middleware(['auth:sanctum'])->group(function() {
+   
+    Route::get('/product_list', [ProductController::class, 'product_list']);
+    Route::resource('product.create', ProductController::class)->only(['store']);
+    Route::put('/product_update/{id}', [ProductController::class, 'update']);
+    Route::delete('/product_delete/{id}', [ProductController::class, 'destroy']);
+
+});
+
+
+3
+======
+// GET: http://127.0.0.1:8000/api/product_list
+// POST: http://127.0.0.1:8000/api/users/1/create
+ 
+    {
+        "title":"hola",
+        "description":"123456sss789"
+    }
+
+// PUT: http://127.0.0.1:8000/api/product_update/1
+ 
+    {
+        "title":"Otra",
+        "description":"Este es una descripcion de prueba 3"
+    }
+
+//DELETE: http://127.0.0.1:8000/api/product_delete/3
+
+//LOGIN
+// POST: http://127.0.0.1:8000/api/login
+/*
+    {
+        "email":"admin@gmail.com",
+        "password":"123456789"
+    }
+
+*/
+
+
+
+
+
